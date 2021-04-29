@@ -2,7 +2,7 @@ FROM node:12.19.0-alpine
 
 MAINTAINER Antony R. Goetzschel <ago@ccsolutions.io>
 
-RUN apk add --update yarn docker bash
+RUN apk add --update yarn docker bash git
 
 RUN yarn init -y
 
